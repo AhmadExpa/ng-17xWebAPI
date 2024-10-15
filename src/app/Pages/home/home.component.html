@@ -1,0 +1,11 @@
+<!-- src/app/app.component.html -->
+<h1>Employee List</h1>
+<ul>
+  <li *ngFor="let employee of employees">
+    {{ employee.name }} ({{ employee.role }})
+  </li>
+</ul>
+
+<button (click)="addEmployee()">Add Employee</button>
+<button (click)="updateEmployee()">Update Employee</button>
+<button (click)="deleteEmployee()">Delete Employee</button>
