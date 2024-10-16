@@ -1,13 +1,13 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <!-- Container wrapper -->
   <div class="container">
     <!-- Navbar brand -->
-    <a class="navbar-brand me-2" href="https://mdbgo.com/">
+    <a class="navbar-brand me-2">
       <img
-        src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
-        height="16"
+        src="../../../assets/Image/ahmadExpa.png"
         alt="MDB Logo"
+        height="128"
         loading="lazy"
         style="margin-top: -1px"
       />
@@ -15,9 +15,11 @@
 
     <!-- Toggle button -->
     <button
+      style="border: none; background-color: transparent"
       class="navbar-toggler"
       type="button"
-      data-mdb-target="#navbarButtonsExample"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarButtonsExample"
       aria-controls="navbarButtonsExample"
       aria-expanded="false"
       aria-label="Toggle navigation"
@@ -36,13 +38,15 @@
       <!-- Left links -->
 
       <div class="d-flex align-items-center">
-        <button type="button" class="btn btn-link px-3 me-2">Login</button>
+        <button type="button" class="btn btn-outline-light px-3 me-2">
+          Login
+        </button>
         <button type="button" class="btn btn-primary me-3">
           Sign up for free
         </button>
-        <a class="btn btn-dark px-3" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
+        <a class="btn btn-dark px-3" role="button">
+          <i class="fab fa-github"></i>
+        </a>
       </div>
     </div>
     <!-- Collapsible wrapper -->

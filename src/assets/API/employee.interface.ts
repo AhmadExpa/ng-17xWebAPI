@@ -1,5 +1,6 @@
 export interface Employee {
     id: number;
     name: string;
-    position: string;
+    role: string;
+    salary: number;
 }
